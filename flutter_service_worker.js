@@ -3,11 +3,11 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"flutter_bootstrap.js": "d571a49045f8fe4b4aa48a4a48af3a74",
+const RESOURCES = {"flutter_bootstrap.js": "62bec4a941dcb8a631fc577247d84a45",
 "version.json": "e91419365f5595b0c12f436a1b48bfbc",
 "index.html": "bdf76933a472cfba0858bd8ff43cd51d",
 "/": "bdf76933a472cfba0858bd8ff43cd51d",
-"main.dart.js": "33730356f0becf26044777e9a626aff9",
+"main.dart.js": "0b5a2ff1547fc3bd353e366e1a971a1f",
 "flutter.js": "383e55f7f3cce5be08fcf1f3881f585c",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
@@ -28,7 +28,7 @@ const RESOURCES = {"flutter_bootstrap.js": "d571a49045f8fe4b4aa48a4a48af3a74",
 "assets/assets/viewAuction/theme1.webp": "d076c79037a69a2b0239449e76216191",
 "assets/assets/viewAuction/crick_Badge.webp": "6466ac197cf741db615ddf286ec83534",
 "assets/assets/viewAuction/testTeamLogo.webp": "7c1bfecc9d4fb63b761ea62755d16036",
-"assets/assets/viewAuction/auctionNameBG.webp": "2b7043b9dd4cb0bc33024d194647c0ba",
+"assets/assets/viewAuction/auctionNameBG.webp": "3afc0a06d466815b431ceac2fb470ca7",
 "assets/assets/viewAuction/team2.webp": "ba3b262b29ad8d1e448b3131599eada4",
 "assets/assets/viewAuction/playerNoBG.webp": "0bb75cfce03b63009da3fa7fcf692a28",
 "assets/assets/viewAuction/teamLogoBG.webp": "7ff740b99f3a34fb298eb9365ec45210",
