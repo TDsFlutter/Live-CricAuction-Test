@@ -20717,8 +20717,8 @@ this.b=b
 this.c=c},
 Bz:function Bz(){},
 Tg:function Tg(){},
-aaZ(){var s,r=A.akd(1),q=new A.DA($,!0,!1,new A.hf(A.a([],t.F_),t.FS),A.y(t.HE,t.d_))
-q.oh$=1
+aaZ(){var s,r=A.akd(0),q=new A.DA($,!0,!1,new A.hf(A.a([],t.F_),t.FS),A.y(t.HE,t.d_))
+q.oh$=0
 s=t.Wo
 s=new A.im(r,q,A.a([],t.EH),A.dG(null,null,null,t.X,t.xW),new A.lq(s),new A.lq(s),!1,!1)
 s.B6()
@@ -63291,20 +63291,25 @@ A.Tq.prototype={
 $1(a){return new A.lx(new A.Tp(this.a,a),null)},
 $S:379}
 A.Tp.prototype={
-$2(a,b){var s,r,q,p,o=null,n="Battambang",m="Urbanist",l=b.b,k=A.a6F("assets/viewAuction/theme1.webp",B.j2,b.d,l),j=l*0.008,i=l*0.025,h=A.bH(o,o,o,new A.bE(o,A.fm(new A.Ah(B.i,B.fk),B.b6,new A.cY("assets/viewAuction/crick_Badge.webp",o,o)),o,o,o,o,B.M),i,o,o,i),g=A.cF(o,o,l*0.002),f=A.bs(o,o,B.i,o,o,o,o,o,o,o,o,l*0.018,o,o,o,o,o,!0,o,0.6,o,o,o,o,o,o),e=t.F
-f=A.bH(o,A.fH(A.a([h,g,new A.eA(new A.aL(0,l*0.004,0,0),A.am0(A.ov(A.a([A.ov(o,o,A.bs(o,o,B.i,o,o,o,o,o,n,o,o,o,o,o,B.e3,o,o,!0,o,o,o,o,o,o,o,o),"Cric"),A.ov(o,o,A.bs(o,o,B.i,o,o,o,o,o,n,o,o,o,o,o,B.a5,o,o,!0,o,o,o,o,o,o,o,o),"Auction  ")],t.VO),o,o,o),o,o,o,o,o,o,o,f,o,o,o),o)],e),B.ae,B.db,B.az),o,o,o,o,o,o)
+$2(a,a0){var s,r,q,p,o,n,m,l=null,k="Battambang",j="Urbanist",i=a0.b,h=A.a6F("assets/viewAuction/theme1.webp",B.j2,a0.d,i),g=i*0.008,f=i*0.025,e=A.bH(l,l,l,new A.bE(l,A.fm(new A.Ah(B.i,B.fk),B.b6,new A.cY("assets/viewAuction/crick_Badge.webp",l,l)),l,l,l,l,B.M),f,l,l,f),d=A.cF(l,l,i*0.002),c=A.bs(l,l,B.i,l,l,l,l,l,l,l,l,i*0.018,l,l,l,l,l,!0,l,0.6,l,l,l,l,l,l),b=t.F
+c=A.bH(l,A.fH(A.a([e,d,new A.eA(new A.aL(0,i*0.004,0,0),A.am0(A.ov(A.a([A.ov(l,l,A.bs(l,l,B.i,l,l,l,l,l,k,l,l,l,l,l,B.e3,l,l,!0,l,l,l,l,l,l,l,l),"Cric"),A.ov(l,l,A.bs(l,l,B.i,l,l,l,l,l,k,l,l,l,l,l,B.a5,l,l,!0,l,l,l,l,l,l,l,l),"Auction  ")],t.VO),l,l,l),l,l,l,l,l,l,l,c,l,l,l),l)],b),B.ae,B.db,B.az),l,l,l,l,l,l)
 s=A.aF([B.ze,new A.eR("dc3019406d104e4124d1f73ef777e3e15b0df2d3797dc4f05f838b88448bbdbc",304160),B.zf,new A.eR("8b5d0190df6e45a23ab724a0a4784a10deb7d4cd89776de99c63acf88d3d4257",304448),B.zg,new A.eR("f4becfca034a14218f9779e6ff5bc1ca5b1514577c3cab76e386ff9642c67633",304068),B.zh,new A.eR("8fba6fe30d0e768cf6ec5468e843b4834a29bf71133ca031a80e45d464472beb",303480),B.zi,new A.eR("4079cf2d8fcdce1bfa9692f2a1a1788188d7dadce807079bb6a623371ef9ff1c",308368),B.zj,new A.eR("824565ea1e33c84958432becc24dc30ae3df9ba9a9304b47bf1f330f460ca706",309408),B.zk,new A.eR("0ebefe6637b51f54e953af5beed98d607237c3bdcadbc39cefe3edcbec529ef7",309748),B.zl,new A.eR("d1adf80c80c93bbc514bb2899b3f84e2ff256004e9ad48bc405b568dc46fbcf3",310360),B.zm,new A.eR("8678ab8cc7cb3fba2789643c5eecdbecdfea1e96656f7f8ab5377835773a7b09",310016)],t.gm,t.Ks)
-r=B.iw.a10(o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o)
-h=r.w
-if(h==null)h=B.u
-q=A.anN(new A.es(h,B.aH),new A.aE(s,A.l(s).h("aE<1>")))
-h=s.k(0,q)
-h.toString
-A.pI(new A.RA(new A.RB("Inter",q),h))
-h=l*0.05
-g=l*0.075
-p=this.b
-return new A.m0(A.f5(B.bY,A.a([k,new A.eA(new A.aL(0,j,0,j),A.zz(A.a([new A.eA(new A.aL(i,0,i,0),A.fH(A.a([A.f5(B.bY,A.a([f,A.eZ(o,A.d4("TM",o,o,o,o,o,o,o,A.bs(o,o,B.i,o,o,o,o,o,r.a12("Inter_"+q.i(0),A.a(["Inter"],t.s)).d,o,o,l*0.0078,o,o,B.a5,o,o,!0,o,o,o,o,o,o,o,o),o,o,o),o,o,o,l*0.0036,l*0.0026,o)],e),B.aA),A.f5(B.aU,A.a([A.bH(o,o,o,new A.bE(o,A.fm(o,B.b6,new A.cY("assets/viewAuction/auctionNameBG.webp",o,o)),o,o,o,o,B.M),l*0.065,o,o,l*0.355),A.eZ(o,A.bH(o,o,o,new A.bE(o,A.fm(o,B.fm,new A.cY("assets/viewAuction/testTeamLogo.webp",o,o)),o,o,o,o,B.bn),h,o,o,h),o,o,l*0.0155,o,l*0.0025,o),A.eZ(o,A.d4("Gladiator Premier League Sapphire Premier League",o,o,2,o,o,o,o,A.bs(o,o,B.i,o,o,o,o,o,m,o,o,l*0.013,o,o,B.Z,o,o,!0,o,o,o,B.X,o,o,o,o),o,o,o),o,o,g,i,j,o),A.eZ(l*0.0006,A.d4("123 Sports Avenue, Sector 45,Springfield, NY 10001",o,o,1,o,o,o,o,A.bs(o,o,new A.x(4278263367),o,o,o,o,o,m,o,o,l*0.009,o,o,B.Z,o,o,!0,o,o,o,B.X,o,o,o,o),o,o,o),o,o,g,l*0.045,o,o)],e),B.aA),new A.tc(new A.Tm(p,l),o)],e),B.ae,B.po,B.bg),o),A.aag(A.abT(A.up(a).IB(A.bo([B.dh,B.bO],t.Au)),new A.tp(B.aF,p.ax,new A.C_(o),new A.Tn(p),new A.E5(new A.To(this.a,l),3,!0,!0,!0,o),o)))],e),B.ay,B.bg),o)],e),B.aA),o)},
+r=B.iw.a10(l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l)
+e=r.w
+if(e==null)e=B.u
+q=A.anN(new A.es(e,B.aH),new A.aE(s,A.l(s).h("aE<1>")))
+e=s.k(0,q)
+e.toString
+A.pI(new A.RA(new A.RB("Inter",q),e))
+c=A.f5(B.bY,A.a([c,A.eZ(l,A.d4("TM",l,l,l,l,l,l,l,A.bs(l,l,B.i,l,l,l,l,l,r.a12("Inter_"+q.i(0),A.a(["Inter"],t.s)).d,l,l,i*0.0078,l,l,B.a5,l,l,!0,l,l,l,l,l,l,l,l),l,l,l),l,l,l,i*0.0036,i*0.0026,l)],b),B.aA)
+e=A.bH(l,l,l,new A.bE(l,A.fm(l,B.b6,new A.cY("assets/viewAuction/auctionNameBG.webp",l,l)),l,l,l,l,B.M),i*0.065,l,l,i*0.355)
+d=i*0.05
+d=A.eZ(l,A.bH(l,l,l,new A.bE(l,A.fm(l,B.fm,new A.cY("assets/viewAuction/testTeamLogo.webp",l,l)),l,l,l,l,B.bn),d,l,l,d),l,l,i*0.0155,l,i*0.0025,l)
+p=i*0.075
+o=A.eZ(l,A.d4("Gladiator Premier League Sapphire Premier League",l,l,2,l,l,l,l,A.bs(l,l,B.i,l,l,l,l,l,j,l,l,i*0.013,l,l,B.Z,l,l,!0,l,l,l,B.X,l,l,l,l),l,l,l),l,l,p,f,g,l)
+n=this.b
+m=J.c(n.ay.gn(),0)?"Surat":"123 Sports Avenue, Sector 45,Springfield, NY 10001"
+return new A.m0(A.f5(B.bY,A.a([h,new A.eA(new A.aL(0,g,0,g),A.zz(A.a([new A.eA(new A.aL(f,0,f,0),A.fH(A.a([c,A.f5(B.aU,A.a([e,d,o,A.eZ(i*0.0006,A.d4(m,l,l,1,l,l,l,l,A.bs(l,l,new A.x(4278263367),l,l,l,l,l,j,l,l,i*0.009,l,l,B.Z,l,l,!0,l,l,l,B.X,l,l,l,l),l,l,l),l,l,p,i*0.045,l,l)],b),B.aA),new A.tc(new A.Tm(n,i),l)],b),B.ae,B.po,B.bg),l),A.aag(A.abT(A.up(a).IB(A.bo([B.dh,B.bO],t.Au)),new A.tp(B.aF,n.ax,new A.C_(l),new A.Tn(n),new A.E5(new A.To(this.a,i),3,!0,!0,!0,l),l)))],b),B.ay,B.bg),l)],b),B.aA),l)},
 $S:380}
 A.Tm.prototype={
 $0(){var s=4294363724,r=null,q="Urbanist",p=this.a,o=this.b,n=o*0.01,m=p.ay,l=A.Bh(!1,!0,A.d4("HOME",r,r,r,r,r,r,r,A.bs(r,r,J.c(m.gn(),0)?new A.x(s):B.i,r,r,r,r,r,q,r,r,n,r,r,B.a5,r,r,!0,r,r,r,r,r,r,r,r),r,r,r),r,!0,r,r,r,r,r,r,r,r,r,new A.Ti(p),r),k=o*0.004,j=$.iq.bF(),i=$.iq.bF(),h=A.Bh(!1,!0,A.d4("TEAMS",r,r,r,r,r,r,r,A.bs(r,r,J.c(m.gn(),1)?new A.x(s):B.i,r,r,r,r,r,q,r,r,n,r,r,B.a5,r,r,!0,r,r,r,r,r,r,r,r),r,r,r),r,!0,r,r,r,r,r,r,r,r,r,new A.Tj(p),r),g=$.iq.bF(),f=$.iq.bF()
